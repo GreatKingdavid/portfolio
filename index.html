@@ -31,11 +31,11 @@
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="#Home" class="active">Home</a></li>
+						<li><a href="#" class="active">Home</a></li>
 						<li><a href="#About">About</a></li>
 						<li><a href="#Services">Services</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Meet Me</a></li>
+						<li><a href="#Contact">Contact</a></li>
+						<li><a href="#Meet Me">Meet Me</a></li>
 					</ul>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 		</div>
 
 		<!-- the about section -->
-		<div class="About">
+		<div class="About revile" id="About">
 			<div class="about_content">
 				<img class="img2" src="pexels-victoria-borodinova-7280272.jpg" alt="">
 				<div class="about_info">
@@ -73,8 +73,8 @@
 		</div>
 
 		<!-- the services section -->
-		<div id="service_content">
-			<div class="services">
+		<div class="service_content" id="Services">
+			<div class="services revile">
 				<div class="services_intro">
 					<h1>My Offered Services</h1>
 					<p>At about this time of year, some months after New Year’s resolutions have been made and <br>
@@ -122,7 +122,7 @@
 			<!-- ******************************************* -->
 
 			<div class="row">
-				<div class="column">
+				<div class="column revile">
 					<div class="card">
 						<p><i class="fa fa-user"></i></p>
 						<h3>11+</h3>
@@ -130,7 +130,7 @@
 					</div>
 				</div>
 
-				<div class="column">
+				<div class="column revile">
 					<div class="card">
 						<p><i class="fa fa-check"></i></p>
 						<h3>5+</h3>
@@ -138,7 +138,7 @@
 					</div>
 				</div>
 
-				<div class="column">
+				<div class="column revile">
 					<div class="card">
 						<p><i class="fa fa-smile-o"></i></p>
 						<h3>20+</h3>
@@ -146,7 +146,7 @@
 					</div>
 				</div>
 
-				<div class="column">
+				<div class="column revile">
 					<div class="card">
 						<p><i class="fa fa-coffee"></i></p>
 						<h3>10+</h3>
@@ -160,13 +160,13 @@
 			<div id="testimonials">
 				<h2>Testimonials</h2>
 
-				<div class="container">
+				<div class="container revile">
 					<img src="pexels-victoria-borodinova-7280272.jpg" alt="Avatar" style="width:90px">
 					<p><span>Chinaza Anikwe.</span> CEO at Exodus Plus.</p>
 					<p>KINGDAVID saved us from a web disaster.</p>
 				</div>
 
-				<div class="container">
+				<div class="container revile">
 					<img src="pexels-frank-meriño-7360550.jpg" alt="Avatar" style="width:90px">
 					<p><span>Kc Ubesie.</span> CEO at Company.</p>
 					<p>Kingdavid is one of the most creative web developers I have ever come across.</p>
@@ -177,7 +177,7 @@
 			<!-- the contact section -->
 			<!-- //////////////////////////////////// -->
 
-			<div class="contact">
+			<div class="contact revile" id="Contact">
 				<h2>You can contact Me with This</h2>
 				<a href="#" class="fa fa-phone">+2349167938060</a>
 
@@ -189,7 +189,7 @@
 			<!-- footer section -->
 			<!-- //////////////////////////////////// -->
 
-			<div class="footer">
+			<div class="footer revile" id="Meet Me">
 				<div class="footer_about">
 					<h2>About Me</h2>
 					<p>We have tested a number of registry fix and clean <br> utilities and present our top 3 list on
@@ -213,16 +213,7 @@
 			</div>
 
 
-
-			<script>
-				var hamburger = document.querySelector(".hamburger");
-				var menu = document.querySelector(".menu");
-
-				hamburger.addEventListener("click", function () {
-					menu.classList.toggle("active");
-				})
-			</script>
-
+<script src="app.js"></script>
 </body>
 
 </html>
