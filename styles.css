@@ -16,7 +16,6 @@ body {
 
 .navbar {
 	width: 100%;
-	overflow: hidden;
 	height: 80px;
 	background: #5a5a5a;
 	position: fixed;
@@ -134,19 +133,21 @@ body {
 	border: none;
 }
 
+.animate__animated.animate__tada:hover {
+	animation-duration: 5s;
+}
 
 /* ********************************************************* */
 /* ********* The about section for lg screen ************ */
 /* ********************************************************* */
 
 .img2 {
-	width: 350px;
+	max-width: 350px;
 	margin-bottom: 100px;
 	margin-top: 100px;
 	margin-left: 100px;
 	margin-right: 150px;
-	border-radius: 16px;
-	box-shadow: 5px 10px 20px 30px #14141431;
+	box-shadow: 40px 0px 0px 0px #14141411;
 }
 
 
@@ -495,13 +496,11 @@ body {
 	/* ********* The about section for medium screen ************ */
 	/* ********************************************************* */
 
-	.img2 {
-
-		height: 500px;
-		margin-top: 100px;
+	.img2 {		
+		margin-top: 10px;
 		margin-left: 60px;
 		margin-right: 60px;
-		border-radius: 16px;
+		
 	}
 
 	.about_content {
@@ -649,13 +648,6 @@ body {
 
 
 	.img1 {
-		/* display: flex;
-		align-items: center;
-		justify-content: center; */
-		/* width: 400px;
-		margin-top: 20px;
-		margin: 15px;
-		border-radius: 16px; */
 		width: 80vw;
 		margin: 0 auto;
 		max-width: 400px;
@@ -693,7 +685,7 @@ body {
 
 	}
 
-	.start_project {
+	.start_project{
 		padding: 13px 30px 13px 30px;
 		background-color: #5bd485c2;
 		border-radius: 5px;
@@ -701,26 +693,25 @@ body {
 		text-transform: uppercase;
 		font-size: 16px;
 		border: none;
+		
 	}
+
+
+			/* .animate__animated.animate__tada:hover{
+			animation-duration: 5s;
+		} */
 
 	/* ********************************************************* */
 	/* ********* The about section for small screen ************ */
 	/* ********************************************************* */
 
 	.img2 {
-		/* height: 400px;
-		
-		margin-bottom: 70px;
-		margin-left: 20px;
-		margin-right: 60px;
-		border-radius: 16px; */
-		position: relative;
-		top: 20px;
-		left: 15px;
-		height: 90vw;
-		width: 80vw;
-			margin: 0 auto;
-			max-width: 400px;
+		width: 70vw;
+		height: 60vw;
+		margin: 0 auto ;
+		max-width: 400px;
+		border-radius: 0 0 10px 0;
+		box-shadow: 0 4px 0 0 #091b12;
 	}
 
 	.about_content {
