@@ -1,0 +1,10 @@
+ScrollReveal().reveal('.revile' );
+ScrollReveal().reveal('.revile1', { delay: 200});
+ScrollReveal().reveal('.revile2', { delay: 600});
+ScrollReveal().reveal('.revile3', { delay: 1000 });
+ScrollReveal().reveal('.revile4', { delay: 1400 });
+ScrollReveal().reveal('.revile5', { delay: 1800 });
+ScrollReveal().reveal('.revile6', { delay: 2200});
+ScrollReveal().reveal('.revile7', { delay: 500 });
+ScrollReveal().reveal('.revile8', { delay: 700 });
+ScrollReveal().reveal('.revile9', { delay: 900 });
