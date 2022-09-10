@@ -103,14 +103,14 @@ body {
 
 .home_intro p {
 	margin-bottom: 20px;
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 35px;
 	font-family: 'Poppins';
 }
 
 .home_intro h1 {
 	margin-bottom: 30px;
-	font-size: 38px;
+	font-size: 30px;
 	font-weight: 700;
 	color: #14141be8;
 
@@ -118,6 +118,7 @@ body {
 
 .p1 {
 	margin-bottom: 40px;
+	font-size: 9px;
 	line-height: 35px;
 	color: #808080da;
 
@@ -161,14 +162,14 @@ body {
 	max-width: 1070px;
 	margin-top: 150px;
 	margin-left: -30px;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 35px;
 	color: #808080da;
 }
 
 .about_h1 {
 	margin-left: 20px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 400;
 	margin-top: 170px;
 	margin-bottom: 30px;
@@ -176,7 +177,7 @@ body {
 }
 
 .about_h2 {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 900;
 	margin-bottom: -120px;
 	color: #14141be8;
@@ -191,6 +192,10 @@ body {
 	text-transform: uppercase;
 	font-size: 20px;
 	border: none;
+}
+
+.a1{
+	color: white;
 }
 
 /* ********************************************************* */
@@ -211,7 +216,7 @@ body {
 }
 
 .services_intro h1 {
-	font-size: 40px;
+		font-size: 25px;
 	font-weight: 700;
 	color: #14141bbd;
 }
@@ -294,11 +299,12 @@ body {
 
 #testimonials {
 	margin-top: 130px;
+	font-size: 15px;
 }
 
 #testimonials h2 {
 	margin-left: 40px;
-	font-size: 50px;
+	
 }
 
 .container {
@@ -359,6 +365,7 @@ body {
 	bottom: 0;
 	width: 100%;
 	margin-top: 80px;
+	font-size: 15px;
 	background-image:linear-gradient(to bottom, #081d1596, #091b12);
 		box-shadow: 10px 4px 8px 0 #00000033;
 	color: white;
@@ -372,9 +379,9 @@ body {
 }
 
 .fa {
-	padding: 10px;
-	font-size: 30px;
-	width: 50px;
+	padding: 5px;
+	font-size: 15px;
+	width: 40px;
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
@@ -389,8 +396,8 @@ body {
 	color: white;
   }
   
-  .fa-twitter {
-	background: #55ACEE;
+  .fa-github {
+	background: #141b20;
 	color: white;
   }
   
@@ -419,6 +426,7 @@ body {
   .contact{
 	margin: 20px;
 	margin-top: 80px;
+	font-size: 12px;
 	
 	
 }
@@ -475,7 +483,8 @@ body {
 
 	.p1 {
 		margin-bottom: 40px;
-		line-height: 35px;
+		margin-right: 20px;
+		line-height: 1.5;
 		color: #808080da;
 
 	}
@@ -666,21 +675,21 @@ body {
 
 	.home_intro p {
 		margin-bottom: 20px;
-		font-size: 23px;
-		line-height: 35px;
+		font-size: 15px;
+		line-height: 1.5;
 
 	}
 
 	.home_intro h1 {
 		margin-bottom: 30px;
-		font-size: 30px;
+		font-size: 20px;
 		font-weight: 700;
 
 	}
 
 	.p1 {
 		margin-bottom: 40px;
-		line-height: 35px;
+		line-height: 1.5;
 		color: #808080da;
 
 	}
@@ -707,7 +716,7 @@ body {
 
 	.img2 {
 		width: 70vw;
-		height: 60vw;
+		height: 120vw;
 		margin: 0 auto ;
 		max-width: 400px;
 		border-radius: 0 0 10px 0;
@@ -725,22 +734,22 @@ body {
 		margin-right: 20px;
 		margin-left: 50px;
 		max-width: 250vw;
-		font-size: 21px;
-		line-height: 30px;
+		font-size: 16px;
+		line-height: 1.9;
 		color: #808080da;
 	}
 
 	.about_h1 {
 		margin-left: 20px;
 		margin-top: 30px;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: 400;
 		margin-bottom: 30px;
 		color: #14141bbd;
 	}
 
 	.about_h2 {
-		font-size: 30px;
+		font-size: 25px;
 		margin-left: 25px;
 		font-weight: 900;
 		margin-bottom: 30px;
@@ -748,20 +757,20 @@ body {
 	}
 
 	.more_about {
-		padding: 13px 40px 13px 40px;
+		padding: 10px 25px 10px 25px;
 		margin-top: 40px;
 		margin-left: 30px;
 		background-color: #5bd485;
 		border-radius: 5px;
 		color: #fff;
 		text-transform: uppercase;
-		font-size: 20px;
+		font-size: 15px;
 		border: none;
 	}
 
 		#testimonials h2 {
 			margin-left: 20px;
-			font-size: 30px;
+			font-size: 20px;
 		}
 
 	/* ********************************************** */
@@ -774,6 +783,7 @@ body {
 		margin-top: 50px;
 		margin-bottom: 100px;
 		padding: 10px;
+		font-size: 10px;
 	}
 
 	.services_item1 span {
